@@ -24,6 +24,8 @@ The findings from this analysis can help understand consumer preferences and pri
 
 [The dataset used in this project is available here](https://www.kaggle.com/datasets/syedanwarafridi/vehicle-sales-data)
 
+The "Vehicle Sales Data" provides a comprehensive collection of information pertaining to the sales transactions of various vehicles. This dataset encompasses details such as the year, make, model, trim, body type, transmission type, VIN (Vehicle Identification Number), state of registration, condition rating, odometer reading, exterior and interior colors, seller information, Manheim Market Report (MMR) values, selling prices, and sale dates.
+
 <h3 style="text-align:left;">Technologies Used:</h3>
 
 * Google BigQuery: Used as the main database to prepare for further data analysis.
