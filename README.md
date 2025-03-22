@@ -1,11 +1,11 @@
 <h1 style="text-align:left;">Vehicle Sales Data Analysis</h1>
 
-This project analyzes vehicle sales data to uncover price trends, customer preferences, and the influence of factors such as odometer reading, year of manufacture, transmission type, and condition on vehicle prices.
+This project analyzes vehicle sales data to uncover price trends, customer preferences and the influence of factors such as odometer reading, year of manufacture, transmission type, and condition on vehicle prices.
 
 <h3 style="text-align:left;">Project Overview:</h3>
 This project includes:
 
-* Vehicle Age and Pricing Trends – Examining the relationship between a car’s manufacturing year and its selling price, as well as how mileage impacts valuation.
+* Vehicle Age and Pricing Trends – Examining the relationship between a car’s manufacturing year and its selling price, as well as how odometer reading impacts valuation.
 * Brand-Based Pricing – Identifying which car makes have the highest average price and visualizing the results.
 * Transmission Type and Pricing – Exploring price variations between automatic and manual vehicles and their distribution across different price ranges.
 * Market Value vs. Selling Price – Comparing estimated market values (Manheim Market Report) with actual selling prices.
@@ -14,8 +14,8 @@ This project includes:
 * Depreciation Analysis – Identifying the top 10 car models that lose value the fastest.
 * Registration State Impact – Evaluating whether a vehicle’s registration state affects its price and total sales.
 * Condition-Based Pricing – Assessing how a car’s condition influences its price.
-* Odometer and Manufacturing Year Relationship – Determining whether older cars tend to have higher mileage.
-* Regional Mileage Differences – Identifying which states sell cars with the highest odometer readings.
+* Odometer and Manufacturing Year Relationship – Determining whether older cars tend to have higher odometer readings.
+* Regional Odometer Differences – Identifying which states sell cars with the highest odometer readings.
 * Data visualization for better insights.
 
 The findings from this analysis can help understand consumer preferences and pricing dynamics in the used car market.
@@ -30,8 +30,3 @@ The findings from this analysis can help understand consumer preferences and pri
 * SQL: Analyzing and cleaning a dataset in Google BigQuery for later analysis in Jupyter Notebook.
 * Jupyter Notebook: Employed for presenting analysis results in an interactive and readable format, leveraging its integration with Google BigQuery.
 * Python: Used for connecting to Google BigQuery, creating custom functions, integrating data analysis workflows.
-
-<h3 style="text-align:left;">Key Findings:</h3>
-
-The data analysis showed that a car's price is mainly influenced by its year of manufacture and mileage. The newer the car and the lower its mileage, the higher the price. Cars with automatic transmissions are more commonly found in higher price ranges, while cars with manual transmissions are generally priced lower. It was also observed that the car's condition and brand play a significant role in determining its price. For example, rare or collectible cars can still maintain a high value even if they are in poor condition.
-
